@@ -12,7 +12,7 @@ This was a quick weekend project, but feel free to add new plugins or features. 
 ![Example schematic](https://github.com/ecattell/muthurGPT/blob/main/screenshots/schematic.png?raw=true)
 
 ## Video
-[YouTube video of muthurGPT in action](https://youtu.be/2Sh9BtFipck?t=72)
+[Reddit video of muthurGPT in action](https://www.reddit.com/r/alienrpg/comments/1nmb625/comment/nmdcn6p/?context=1)
 
 ## Setup
 
@@ -38,7 +38,7 @@ Each plugin can have their own overrides in the config. When running in the cont
 ### OPENAI API KEY
 The API key can be set via the environment variable ``OPENAI_API_KEY``, via command line arg, or via the config key ``openai_api_key``. I would suggest the former options for safety, but the config key can be used to simplify setup. I would recommend disabling auto-refill on your account balance, and only adding money incrementally.
 
-## Plugins
+## How to use ?
 
 ### What is a plugin?
 A plugin in **muthurGPT** can be loaded to initialize MU/TH/UR in different contexts. For example, on the Cronus or Montero in Chariot of the Gods. I've designed this package to allow new plugins to be installed without reinventing the wheel.
