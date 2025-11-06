@@ -31,7 +31,7 @@ This project runs entirely in Python. It’s best to use a virtual environment f
    ```bash
    python3 -m venv venv
    source venv/bin/activate
-````
+   ```
 
 2. Install the required packages:
 
