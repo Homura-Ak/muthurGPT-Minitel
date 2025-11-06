@@ -79,10 +79,24 @@ sudo systemctl start minitel.service
 
 Copy the `.env.example` file and modify it as needed for your setup. To change your OpenAI API key, edit the `.env` file. To change the model, edit the `apollo-gpt` file and modify the line `parser.add_argument('--model', default='gpt-5-mini')  # required`. The `gpt-5-mini` model is used because it’s inexpensive and performs well for this project, while the `gpt-5-nano` model is cheaper but does not follow prompts reliably.
 
+#### Prompts
 
-## How to use ?
+Edit the prompt.txt file to your liking.
+
+#### Art or Boot menu or menu
+
+Edit the corresponding .txt files.
+
+#### Header 
+
+The headers are hard coded in correspondings .py files. You need to change it inside the file. Keep in mind that the minitel can only show 80 col.
+
+## How to use for other campaign ?
+
+Modify the files as desired. (This section is a work in progress.)
 
 ## Outstanding work (in vague order of priority)
 - Clean the code, it's so ugly sorry.
+- Use subfolder.
 - Better use of .env
 - Support of plugins
