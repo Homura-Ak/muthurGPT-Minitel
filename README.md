@@ -1,3 +1,8 @@
+# ⚠️ Archived Repository — Read-Only
+This repository is now read-only and will no longer be maintained.
+The project has been fully rewritten and moved to a new repository in order to support a wider range of role-playing games and provide a more flexible architecture.
+👉 New repository: https://github.com/Homura-Ak/MinitelRPG-framework
+
 ## Overview
 
 **muthurGPT-Minitel** is a chat bot that simulates an onboard computer such as MU/TH/UR or APOLLO for Alien RPG or other TTRPGs. I was only made for running of a Minitel. Maybe it can work on any dumb terminal but I didn't tested it.
